@@ -1,0 +1,1 @@
+{"inputUnits":[1],"outputUnits":1,"inputs":{"LotArea":{"dtype":"number","min":110,"max":1198}},"outputs":{"Retailvalue":{"dtype":"number","min":103000,"max":422000}},"isNormalized":true}
