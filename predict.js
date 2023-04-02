@@ -11,10 +11,10 @@ function modelLoaded() {
     console.log("Model loaded!")
 }
 
-function makePrediction(data) {
+async function makePrediction(data) {
     let toInt = parseInt(data)
     console.log(nn)
-    const results = nn.predict({ Retailvalue: toInt })
+    const results = await nn.predict({ toInt })
     console.log(results)
     result.innerHTML = `Geschatte prijs: ${results[0]}`
 }
